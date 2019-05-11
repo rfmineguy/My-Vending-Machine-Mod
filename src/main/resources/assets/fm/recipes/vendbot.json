@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "fof",
+        "kmk",
+        "fof"
+    ],
+    
+    "key":
+    {
+        "m":
+        {
+            "item": "fm:moneyslot"
+        },
+        "k":
+        {
+            "item": "fm:keypad"
+        },
+        "o":
+        {
+            "item": "fm:onedollar"
+        },
+        "f":
+        {
+            "item": "fm:fivedollar"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fm:vend_block_bot",
+        "count": 1
+    }
+}

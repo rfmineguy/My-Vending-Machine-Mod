@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "wiw",
+        "i i",
+        "wiw"
+    ],
+    
+    "key":
+    {
+        "i":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "w":
+        {
+            "item": "minecraft:planks",
+            "data": 32767
+        }
+    },
+    
+    "result":
+    {
+        "item": "fm:pully",
+        "count": 2
+    }
+}

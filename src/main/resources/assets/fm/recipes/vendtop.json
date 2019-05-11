@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "sps",
+        "sgs",
+        "sps"
+    ],
+    
+    "key":
+    {
+        "s":
+        {
+            "item": "fm:screw"
+        },
+        "g":
+        {
+            "item": "minecraft:glass_pane"
+        },
+        "p":
+        {
+            "item": "fm:pully"
+        }       
+    },
+    
+    "result":
+    {
+        "item": "fm:vend_block_top",
+        "count": 1
+    }
+}

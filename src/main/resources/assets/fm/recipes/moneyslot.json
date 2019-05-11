@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "sss",
+        "fff",
+        "sss"
+    ],
+    
+    "key":
+    {
+        "f":
+        {
+            "item": "fm:onedollar"
+        },
+        "s":
+        {
+            "item": "minecraft:stone",
+            "data": 0
+        }
+    },
+    
+    "result":
+    {
+        "item": "fm:moneyslot",
+        "count": 1
+    }
+}

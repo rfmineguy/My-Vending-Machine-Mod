@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ggg",
+        "grg",
+        "ggg"
+    ],
+    
+    "key":
+    {
+        "g":
+        {
+            "item": "minecraft:glass_pane",
+            "data": 32767
+        },
+        "r":
+        {
+            "item": "minecraft:redstone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fm:screen",
+        "count": 1
+    }
+}

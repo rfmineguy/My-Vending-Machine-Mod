@@ -1,0 +1,15 @@
+item.onedollar.name=One Dollar Bill
+item.fivedollar.name=Five Dollar Bill
+item.tendollar.name=Ten Dollar Bill
+item.moneyslot.name=Money Slot
+item.pully.name=Pully
+item.screen.name=Screen
+item.keypad.name=Key Pad
+item.screw.name=Screw
+tile.vend_block_bot.name=Vending Block Bottom
+tile.vend_block_top.name=Vending Block Top
+tile.vend_block_combined.name=Vending Machine
+tile.sintering_furnace.name=Sintering Furnace
+tile.blockPedestal.name=Pedestal
+tile.counter.name=Counter
+itemGroup.moneytab=Money Tab

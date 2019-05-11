@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "bbb",
+        "bsb",
+        "bbb"
+    ],
+    
+    "key":
+    {
+        "b":
+        {
+            "item": "minecraft:stone_button"
+        },
+        "s":
+        {
+            "item": "fm:screen"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fm:keypad",
+        "count": 4
+    }
+}

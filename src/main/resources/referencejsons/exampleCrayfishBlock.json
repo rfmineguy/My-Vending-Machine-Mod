@@ -1,0 +1,102 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "DOWN": "minecraft:blocks/DOWN",
+        "NORTH": "minecraft:blocks/NORTH",
+        "WEST": "minecraft:blocks/WEST",
+        "SOUTH": "minecraft:blocks/SOUTH",
+        "UP": "minecraft:blocks/UP",
+        "EAST": "minecraft:blocks/EAST"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 5, 11 ], 
+            "faces": {
+                "north": { "texture": "#NORTH", "uv": [ 0, 0, 16, 5 ] },
+                "east": { "texture": "#EAST", "uv": [ 0, 0, 11, 5 ] },
+                "south": { "texture": "#SOUTH", "uv": [ 0, 0, 16, 5 ] },
+                "west": { "texture": "#WEST", "uv": [ 0, 0, 11, 5 ] },
+                "up": { "texture": "#UP", "uv": [ 0, 0, 16, 11 ] },
+                "down": { "texture": "#DOWN", "uv": [ 0, 0, 16, 11 ] }
+            }
+        },
+        {
+            "name": "MiddleBack",
+            "from": [ 0, 5, 0 ], 
+            "to": [ 16, 7, 7 ], 
+            "faces": {
+                "north": { "texture": "#NORTH", "uv": [ 0, 0, 16, 2 ] },
+                "east": { "texture": "#EAST", "uv": [ 0, 0, 7, 2 ] },
+                "south": { "texture": "#SOUTH", "uv": [ 0, 0, 16, 2 ] },
+                "west": { "texture": "#WEST", "uv": [ 0, 0, 7, 2 ] }
+            }
+        },
+        {
+            "name": "Top",
+            "from": [ 0, 7, 0 ], 
+            "to": [ 16, 16, 11 ], 
+            "faces": {
+                "north": { "texture": "#NORTH", "uv": [ 0, 0, 16, 9 ] },
+                "east": { "texture": "#EAST", "uv": [ 0, 0, 11, 9 ] },
+                "south": { "texture": "#SOUTH", "uv": [ 0, 0, 16, 9 ] },
+                "west": { "texture": "#WEST", "uv": [ 0, 0, 11, 9 ] },
+                "up": { "texture": "#UP", "uv": [ 0, 0, 16, 11 ] },
+                "down": { "texture": "#DOWN", "uv": [ 0, 0, 16, 11 ] }
+            }
+        },
+        {
+            "name": "MiddleLeft",
+            "from": [ 0, 5, 7 ], 
+            "to": [ 4, 7, 11 ], 
+            "faces": {
+                "east": { "texture": "#EAST", "uv": [ 0, 0, 4, 2 ] },
+                "south": { "texture": "#SOUTH", "uv": [ 0, 0, 4, 2 ] },
+                "west": { "texture": "#WEST", "uv": [ 0, 0, 4, 2 ] }
+            }
+        },
+        {
+            "name": "MiddleLeft",
+            "from": [ 12, 5, 7 ], 
+            "to": [ 16, 7, 11 ], 
+            "faces": {
+                "east": { "texture": "#EAST", "uv": [ 0, 0, 4, 2 ] },
+                "south": { "texture": "#SOUTH", "uv": [ 0, 0, 4, 2 ] },
+                "west": { "texture": "#WEST", "uv": [ 0, 0, 4, 2 ] }
+            }
+        }
+    ]
+}

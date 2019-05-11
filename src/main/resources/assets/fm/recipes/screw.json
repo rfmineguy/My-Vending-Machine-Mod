@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " ii",
+        "ipi",
+        "ii "
+    ],
+    
+    "key":
+    {
+        "i":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "p":
+        {
+            "item": "fm:pully"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fm:screw",
+        "count": 4
+    }
+}
